@@ -1,6 +1,8 @@
 .header {
-  margin-top: 10PX;
+  padding-top: 10PX;
   width: 100%;
+  -webkit-box-shadow: 5PX 0PX 10PX grey;
+          box-shadow: 5PX 0PX 10PX grey;
 }
 
 .header__image {

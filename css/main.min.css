@@ -1,2 +1,2 @@
-.header{margin-top:10PX;width:100%}.header__image{width:60%;margin:auto}.header__image img{width:100%}
+.header{padding-top:10PX;width:100%;-webkit-box-shadow:5PX 0PX 10PX grey;box-shadow:5PX 0PX 10PX grey}.header__image{width:60%;margin:auto}.header__image img{width:100%}
 /*# sourceMappingURL=main.min.css.map */
