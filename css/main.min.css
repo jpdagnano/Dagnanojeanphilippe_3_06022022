@@ -1,2 +1,2 @@
-.header{padding-top:10PX;width:100%;-webkit-box-shadow:5PX 0PX 10PX grey;box-shadow:5PX 0PX 10PX grey}.header__image{width:60%;margin:auto}.header__image img{width:100%}
+@font-face{font-family:'robotothin';src:url("/roboto_font/roboto-thin-webfont.woff2"),url("/roboto_font/roboto-thin-webfont.woff"),url("/roboto_font/Roboto-Regular.ttf");font-weight:normal;font-style:normal}.header{padding-top:10PX;width:100%;-webkit-box-shadow:5PX 0PX 10PX grey;box-shadow:5PX 0PX 10PX grey}.header__image{width:60%;margin:auto}.header__image img{width:100%}p{font-family:'robotothin'}
 /*# sourceMappingURL=main.min.css.map */

@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'robotothin';
+  src: url("/roboto_font/roboto-thin-webfont.woff2"), url("/roboto_font/roboto-thin-webfont.woff"), url("/roboto_font/Roboto-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .header {
   padding-top: 10PX;
   width: 100%;
@@ -12,5 +19,9 @@
 
 .header__image img {
   width: 100%;
+}
+
+p {
+  font-family: 'robotothin';
 }
 /*# sourceMappingURL=main.css.map */
