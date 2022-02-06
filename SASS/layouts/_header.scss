@@ -1,3 +1,11 @@
 .header{
-    width: 90%;
+    margin-top: 10PX;
+    width: 100%;
+    &__image{
+        width: 60%;
+        margin: auto;
+    }
+    &__image img{
+        width: 100%;
+    }
 }
