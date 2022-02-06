@@ -1,6 +1,13 @@
 @font-face {
   font-family: 'robotothin';
-  src: url("/roboto_font/roboto-thin-webfont.woff2"), url("/roboto_font/roboto-thin-webfont.woff"), url("/roboto_font/Roboto-Regular.ttf");
+  src: url("./roboto_font/roboto-thin-webfont.woff2"), url("./roboto_font/roboto-thin-webfont.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'shrikhandregular';
+  src: url("./shrikhand_font/shrikhand-regular-webfont.woff2"), url("./shrikhand_font/shrikhand-regular-webfont.woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -19,9 +26,5 @@
 
 .header__image img {
   width: 100%;
-}
-
-p {
-  font-family: 'robotothin';
 }
 /*# sourceMappingURL=main.css.map */
