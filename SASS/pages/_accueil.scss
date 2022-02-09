@@ -2,11 +2,12 @@
     display: flex;
     width: 100%;
     justify-content: center;
+    background-color: rgb(221, 217, 217);
 }
 
 .nomville .fa-map-marker-alt{
-    width: 40PX;
     display: flex;
-    justify-content: center;
     align-items: center;
+    position: relative;
+    left: -5%;
 }

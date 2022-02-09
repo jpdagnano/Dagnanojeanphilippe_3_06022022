@@ -19,7 +19,7 @@
 }
 
 .header__image {
-  width: 60%;
+  width: 50%;
   margin: auto;
 }
 
@@ -31,11 +31,12 @@
   display: flex;
   width: 100%;
   justify-content: center;
+  background-color: #ddd9d9;
 }
 
 .nomville .fa-map-marker-alt {
-  width: 40PX;
   display: flex;
-  justify-content: center;
   align-items: center;
+  position: relative;
+  left: -5%;
 }
