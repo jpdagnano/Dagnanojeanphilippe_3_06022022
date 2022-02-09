@@ -4,7 +4,7 @@
     justify-content: center;
     background-color: rgb(221, 217, 217);
     &__texte{
-        font-family: robotothin;
+        font-family: roboto;
     }
 }
 
@@ -13,4 +13,50 @@
     align-items: center;
     position: relative;
     left: -5%;
+}
+
+.explorestau{
+    background-color: rgb(241, 238, 238);
+}
+.explorestau__phrase1{
+    display: flex;
+    justify-content: center;
+}
+
+.explorestau__phrase1 h1{
+      margin: 0;
+      text-align: center;
+      width: 70%;
+      padding-top: 40PX;
+      font-family: roboto;
+      font-weight: 500;
+      font-size: 1.4em;
+  }
+
+.explorestau__phrase2 p{
+    text-align: center;
+    font-family: roboto;
+    font-weight: 100;
+}
+
+.explorestau__bouton{
+    display: flex;
+    justify-content: center;
+    padding-top: 20PX;
+    padding-bottom: 30PX;
+}
+
+.explorestau__bouton a{
+    display: flex;
+    text-decoration: none;
+    font-family: roboto;
+    font-weight: bolder;
+    color: white;
+    border-radius: 25PX;
+    height: 45PX;
+    width: 220PX;
+    background-color:$primary-color;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1PX 1PX 10PX 1PX rgb(194, 192, 192);
 }

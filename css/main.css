@@ -1,11 +1,4 @@
 @font-face {
-  font-family: 'robotothin';
-  src: url("./roboto_font/roboto-thin-webfont.woff2"), url("./roboto_font/roboto-thin-webfont.woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'shrikhandregular';
   src: url("./shrikhand_font/shrikhand-regular-webfont.woff2"), url("./shrikhand_font/shrikhand-regular-webfont.woff");
   font-weight: normal;
@@ -35,8 +28,7 @@
 }
 
 .nomville__texte {
-  font-family: robotothin;
-  font-weight:bolder;
+  font-family: roboto;
 }
 
 .nomville .fa-map-marker-alt {
@@ -44,4 +36,51 @@
   align-items: center;
   position: relative;
   left: -5%;
+}
+
+.explorestau {
+  background-color: #f1eeee;
+}
+
+.explorestau__phrase1 {
+  display: flex;
+  justify-content: center;
+}
+
+.explorestau__phrase1 h1 {
+  margin: 0;
+  text-align: center;
+  width: 70%;
+  padding-top: 40PX;
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 1.4em;
+}
+
+.explorestau__phrase2 p {
+  text-align: center;
+  font-family: roboto;
+  font-weight: 100;
+}
+
+.explorestau__bouton {
+  display: flex;
+  justify-content: center;
+  padding-top: 20PX;
+  padding-bottom: 30PX;
+}
+
+.explorestau__bouton a {
+  display: flex;
+  text-decoration: none;
+  font-family: roboto;
+  font-weight: bolder;
+  color: white;
+  border-radius: 25PX;
+  height: 45PX;
+  width: 220PX;
+  background-color: #9356DC;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1PX 1PX 10PX 1PX #c2c0c0;
 }
