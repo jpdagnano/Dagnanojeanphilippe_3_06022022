@@ -34,6 +34,11 @@
   background-color: #ddd9d9;
 }
 
+.nomville__texte {
+  font-family: robotothin;
+  font-weight:bolder;
+}
+
 .nomville .fa-map-marker-alt {
   display: flex;
   align-items: center;
