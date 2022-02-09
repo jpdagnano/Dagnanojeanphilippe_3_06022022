@@ -5,6 +5,10 @@
   font-style: normal;
 }
 
+body {
+  font-family: roboto;
+}
+
 .header {
   padding-top: 10PX;
   width: 100%;
@@ -25,10 +29,6 @@
   width: 100%;
   justify-content: center;
   background-color: #ddd9d9;
-}
-
-.nomville__texte {
-  font-family: roboto;
 }
 
 .nomville .fa-map-marker-alt {
@@ -52,14 +52,12 @@
   text-align: center;
   width: 70%;
   padding-top: 40PX;
-  font-family: roboto;
   font-weight: 500;
   font-size: 1.4em;
 }
 
 .explorestau__phrase2 p {
   text-align: center;
-  font-family: roboto;
   font-weight: 100;
 }
 
@@ -73,7 +71,6 @@
 .explorestau__bouton a {
   display: flex;
   text-decoration: none;
-  font-family: roboto;
   font-weight: bolder;
   color: white;
   border-radius: 25PX;
