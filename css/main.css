@@ -81,3 +81,29 @@ body {
   align-items: center;
   box-shadow: 1PX 1PX 10PX 1PX #c2c0c0;
 }
+
+.etapesfonctionnement {
+  display: flex;
+  align-items: center;
+}
+
+.etapesfonctionnement__numero {
+  display: flex;
+  border-radius: 25PX;
+  width: 20PX;
+  height: 20PX;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #9356DC;
+}
+
+.etapesfonctionnement__logotexte {
+  display: flex;
+  background-color: #f1eeee;
+  border-radius: 20PX;
+  height: 60PX;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
