@@ -120,8 +120,26 @@ h2 {
   box-shadow: 1PX 1PX 10PX 1PX #c2c0c0;
 }
 
+.etapesfonctionnement__logotexte--modifier {
+  display: flex;
+  background-color: #e9ddf8;
+  border-radius: 20PX;
+  height: 60PX;
+  width: 90%;
+  align-items: center;
+  justify-content: flex-start;
+  box-shadow: 1PX 1PX 10PX 1PX #c2c0c0;
+}
+
 .logo_fonctionnement {
   color: grey;
+  display: flex;
+  width: 30%;
+  justify-content: center;
+}
+
+.logo_fonctionnement--modifie {
+  color: #9356DC;
   display: flex;
   width: 30%;
   justify-content: center;
