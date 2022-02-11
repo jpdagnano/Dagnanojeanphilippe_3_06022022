@@ -24,9 +24,11 @@ body {
   width: 100%;
 }
 
+
 h2 {
   margin-left: 15PX;
 }
+
 
 .nomville {
   display: flex;
@@ -80,7 +82,6 @@ h2 {
   border-radius: 25PX;
   height: 45PX;
   width: 220PX;
-  background-color: #9356DC;
   justify-content: center;
   align-items: center;
   box-shadow: 1PX 1PX 10PX 1PX #c2c0c0;
