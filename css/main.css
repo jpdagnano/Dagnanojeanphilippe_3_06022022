@@ -144,3 +144,39 @@ h2 {
   position: relative;
   left: 40PX;
 }
+
+.zone_restaurants {
+  background-color: #f1eeee;
+  height: 800PX;
+}
+
+.carterestaurant {
+  width: 95%;
+  margin: auto;
+  height: 250PX;
+  border-radius: 30PX;
+  display: flex;
+}
+
+.carterestaurant__image {
+  height: 180PX;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  border-top-left-radius: 20PX;
+  border-top-right-radius: 20PX;
+}
+
+.carterestaurant__texte {
+  margin: 0;
+  background-color: white;
+  height: 70PX;
+  border-bottom-left-radius: 20PX;
+  border-bottom-right-radius: 20PX;
+}
+
+.carterestaurant a {
+  margin: 0;
+  text-decoration: none;
+  width: 100%;
+}
