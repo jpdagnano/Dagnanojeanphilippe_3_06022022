@@ -1,0 +1,12 @@
+.header{
+    padding-top: 10PX;
+    width: 100%;
+    box-shadow: 5PX 0PX 10PX grey;
+    &__image{
+        width: 60%;
+        margin: auto;
+    }
+    &__image img{
+        width: 100%;
+    }
+}
