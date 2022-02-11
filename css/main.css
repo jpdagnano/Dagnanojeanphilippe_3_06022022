@@ -133,14 +133,14 @@ h2 {
 
 .logo_fonctionnement {
   color: grey;
-  display: flex;
   width: 30%;
-  justify-content: center;
+  position: relative;
+  left: 40PX;
 }
 
 .logo_fonctionnement--modifie {
   color: #9356DC;
-  display: flex;
   width: 30%;
-  justify-content: center;
+  position: relative;
+  left: 40PX;
 }

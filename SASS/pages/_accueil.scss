@@ -100,13 +100,14 @@
 
 .logo_fonctionnement{
     color: grey;
-    display: flex;
     width: 30%;
-    justify-content: center;
+    position: relative;
+    left: 40PX;
         &--modifie{
             color: $primary-color;
-            display: flex;
             width: 30%;
-            justify-content: center;
+            position: relative;
+            left: 40PX;
+            
         }
 }
