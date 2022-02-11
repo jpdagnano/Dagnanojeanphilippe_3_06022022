@@ -5,6 +5,20 @@
   font-style: normal;
 }
 
+.icone_nouveau {
+  position: absolute;
+  right: 20PX;
+  top: 20PX;
+  height: 30px;
+  width: 80PX;
+  border-radius: 2PX;
+  background-color: #99E2D0;
+  color: #578176;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 body {
   font-family: roboto;
 }
@@ -147,15 +161,13 @@ h2 {
 
 .zone_restaurants {
   background-color: #f1eeee;
-  height: 800PX;
 }
 
 .carterestaurant {
   width: 95%;
   margin: auto;
   height: 250PX;
-  border-radius: 30PX;
-  display: flex;
+  position: relative;
 }
 
 .carterestaurant__image {
@@ -176,7 +188,7 @@ h2 {
 }
 
 .carterestaurant a {
-  margin: 0;
   text-decoration: none;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
