@@ -14,6 +14,7 @@
 
 .explorestau{
     background-color: rgb(241, 238, 238);
+    padding-bottom: 20PX;
 }
 .explorestau__phrase1{
     display: flex;
@@ -49,7 +50,7 @@
     border-radius: 25PX;
     height: 45PX;
     width: 220PX;
-    background-color:$primary-color;
+    background:linear-gradient($secondary-color, $primary-color);
     justify-content: center;
     align-items: center;
     box-shadow: 1PX 1PX 10PX 1PX rgb(194, 192, 192);

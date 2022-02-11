@@ -25,7 +25,9 @@ body {
 }
 
 h2 {
+  margin-top: 40PX;
   margin-left: 15PX;
+  margin-bottom: 40PX;
 }
 
 .nomville {
@@ -44,6 +46,7 @@ h2 {
 
 .explorestau {
   background-color: #f1eeee;
+  padding-bottom: 20PX;
 }
 
 .explorestau__phrase1 {
@@ -80,7 +83,7 @@ h2 {
   border-radius: 25PX;
   height: 45PX;
   width: 220PX;
-  background-color: #9356DC;
+  background: linear-gradient(#FF79DA, #9356DC);
   justify-content: center;
   align-items: center;
   box-shadow: 1PX 1PX 10PX 1PX #c2c0c0;
