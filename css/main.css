@@ -25,6 +25,12 @@
   bottom: 50PX;
 }
 
+.heart-modif {
+  position: absolute;
+  right: 30PX;
+  bottom: 85PX;
+}
+
 .fa-heart:hover {
   color: #FF79DA;
 }
@@ -181,6 +187,12 @@ h2 {
   background-color: #f1eeee;
 }
 
+.carterestaurant a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
 .carterestaurant {
   width: 90%;
   margin: auto;
@@ -219,8 +231,6 @@ h2 {
   font-weight: lighter;
 }
 
-.carterestaurant a {
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
+.carterestaumodif {
+  padding-bottom: 60PX;
 }
