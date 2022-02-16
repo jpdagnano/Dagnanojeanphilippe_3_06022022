@@ -41,17 +41,24 @@ body {
 
 .header {
   padding-top: 10PX;
+  padding-bottom: 10PX;
   width: 100%;
   box-shadow: 5PX 0PX 10PX grey;
+  display: flex;
 }
 
 .header__image {
+  display: flex;
   width: 50%;
   margin: auto;
 }
 
 .header__image img {
   width: 100%;
+}
+
+.fa-arrow-left {
+  color: black;
 }
 
 footer {
