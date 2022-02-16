@@ -15,8 +15,10 @@
 .fa-heart{
     position:absolute;
     right:30PX;
-    bottom:30PX;
+    bottom:50PX;
+    
 }
 .fa-heart:hover{
-color:linear-gradient($secondary-color, $primary-color);
+color:$secondary-color;
+
 }

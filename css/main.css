@@ -22,11 +22,11 @@
 .fa-heart {
   position: absolute;
   right: 30PX;
-  bottom: 30PX;
+  bottom: 50PX;
 }
 
 .fa-heart:hover {
-  color: linear-gradient(#FF79DA, #9356DC);
+  color: #FF79DA;
 }
 
 body {
@@ -182,10 +182,11 @@ h2 {
 }
 
 .carterestaurant {
-  width: 95%;
+  width: 90%;
   margin: auto;
   height: 250PX;
   position: relative;
+  padding-bottom: 25PX;
 }
 
 .carterestaurant__image {

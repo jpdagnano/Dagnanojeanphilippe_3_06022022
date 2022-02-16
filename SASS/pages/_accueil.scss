@@ -120,10 +120,11 @@
 }
 
 .carterestaurant{
-    width: 95%;
+    width: 90%;
     margin:auto;
     height: 250PX;
     position: relative;
+    padding-bottom: 25PX;
         &__image{
             height:180PX;
             object-fit:cover;
