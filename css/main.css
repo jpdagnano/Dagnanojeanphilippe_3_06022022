@@ -54,6 +54,31 @@ body {
   width: 100%;
 }
 
+footer {
+  background-color: #3b3a3a;
+  padding-left: 5%;
+  color: white;
+}
+
+.footer_ohmyfood {
+  padding-top: 30PX;
+  padding-bottom: 30PX;
+  font-family: shrikhand;
+  font-size: 1.2EM;
+}
+
+.liensfooter i {
+  width: 25PX;
+}
+
+.lienfooter__normal {
+  margin-bottom: 15PX;
+}
+
+.lienfooter__modif {
+  padding-bottom: 30PX;
+}
+
 h2 {
   margin-top: 40PX;
   margin-left: 15PX;
@@ -62,6 +87,10 @@ h2 {
 
 .restautitre {
   padding-top: 50PX;
+}
+
+h4 {
+  margin: 0;
 }
 
 .nomville {
