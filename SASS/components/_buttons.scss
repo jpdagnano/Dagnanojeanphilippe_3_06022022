@@ -23,6 +23,9 @@
     bottom:85PX;
 }
 .fa-heart:hover{
-color:$secondary-color;
+background:linear-gradient($secondary-color, $primary-color);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+line-height: 1.33em;
 
 }
