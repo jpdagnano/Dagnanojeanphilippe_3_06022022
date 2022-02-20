@@ -226,14 +226,6 @@ h4 {
   left: 40PX;
 }
 
-.logo_fonctionnement--modifie {
-  color: #9356DC;
-  width: 30%;
-  position: relative;
-  left: 40PX;
-  display: none;
-}
-
 .etapesfonctionnement__lien:hover {
   background-color: #e9ddf8;
   color: #9356DC;
