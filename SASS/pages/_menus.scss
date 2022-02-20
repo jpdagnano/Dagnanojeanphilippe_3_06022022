@@ -1,5 +1,5 @@
-.section-menu{
-    width: 100%;
+.body .html{
+    height: 100%;
 }
 
 .image-titre img{
@@ -9,22 +9,52 @@
 
 
 .menu{
-    position:relative;
-    &__titre{
-    margin:0;
+    position: absolute;
     background-color: #f1eeee;
     padding-top: 30PX;
-    padding-left:5%;
+    padding-left: 5%;
     border-top-left-radius: 35PX;
     border-top-right-radius: 35PX;
-    position:absolute;
-    top:-30PX;
     width: 95%;
+    top: 250PX;
+    &__titre{
+        margin:0;
     }
 }
 
 #coeur-menu{
     position: absolute;
-    right: 30PX;
-    bottom: -10PX;
+    top:30PX;
+}
+
+.menu__choix{
+        border-radius: 10PX;
+        height: 60PX;
+        width: 95%;
+        box-shadow: 1PX 1PX 10PX 1PX rgb(194, 192, 192);
+        margin-bottom: 15PX;
+        background-color: white;
+}
+
+.menu__phrase1{
+    padding-left:10PX;
+    padding-top: 10PX;
+}
+
+.menu__phrase2prix{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 5PX;
+    padding-left: 10PX;
+}
+
+.menu__phrase2{
+    width: 85%;
+    font-weight: lighter;
+    font-size: 0.8em;
+}
+
+.menu__lien{
+    text-decoration: none;
+    color: black;
 }
