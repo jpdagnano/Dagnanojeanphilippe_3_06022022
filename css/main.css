@@ -215,10 +215,6 @@ h4 {
   text-decoration: none;
 }
 
-.logo_fonctionnement--modifie {
-  display: none;
-}
-
 .etapesfonctionnement_div {
   padding-bottom: 20PX;
 }
@@ -235,10 +231,16 @@ h4 {
   width: 30%;
   position: relative;
   left: 40PX;
+  display: none;
 }
 
 .etapesfonctionnement__lien:hover {
   background-color: #e9ddf8;
+  color: #9356DC;
+}
+
+.etapesfonctionnement__lien:hover .logo_fonctionnement::before {
+  color: #9356DC;
 }
 
 .zone_restaurants {

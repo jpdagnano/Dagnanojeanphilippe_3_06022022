@@ -98,10 +98,6 @@
     }
 }
 
-.logo_fonctionnement--modifie{
-    display: none;
-}
-
 .etapesfonctionnement_div{
     padding-bottom: 20PX;
 }
@@ -116,16 +112,18 @@
             width: 30%;
             position: relative;
             left: 40PX;
+            display: none;
             
         }
 }
 
 .etapesfonctionnement__lien:hover{
     background-color:#e9ddf8;
+    color:$primary-color;
 }
-
-
-
+.etapesfonctionnement__lien:hover .logo_fonctionnement::before{
+    color:$primary-color
+}
 
 .zone_restaurants{
     background-color: #f1eeee;
@@ -135,7 +133,6 @@
     text-decoration: none;
     display: flex;
     flex-direction: column;
-
 }
 
 .carterestaurant{
