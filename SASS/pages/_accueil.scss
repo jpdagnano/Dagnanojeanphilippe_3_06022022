@@ -82,23 +82,28 @@
         align-items: center;
         justify-content: flex-start;
         box-shadow: 1PX 1PX 10PX 1PX rgb(194, 192, 192);
+        color: black;
     }
-}
-
-.etapesfonctionnement_div{
-    padding-bottom: 20PX;
-}
-
-.etapesfonctionnement__logotexte--modifier{
+    &__lien{
         display: flex;
-        background-color:#e9ddf8;
+        background-color:rgb(241, 238, 238);
         border-radius: 20PX;
         height: 60PX;
         width: 90%;
         align-items: center;
         justify-content: flex-start;
         box-shadow: 1PX 1PX 10PX 1PX rgb(194, 192, 192);
+        color: black;
+        text-decoration:none;
+    }
+}
 
+.logo_fonctionnement--modifie{
+    display: none;
+}
+
+.etapesfonctionnement_div{
+    padding-bottom: 20PX;
 }
 
 .logo_fonctionnement{
@@ -114,6 +119,13 @@
             
         }
 }
+
+.etapesfonctionnement__lien:hover{
+    background-color:#e9ddf8;
+}
+
+
+
 
 .zone_restaurants{
     background-color: #f1eeee;

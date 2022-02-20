@@ -199,21 +199,28 @@ h4 {
   align-items: center;
   justify-content: flex-start;
   box-shadow: 1PX 1PX 10PX 1PX #c2c0c0;
+  color: black;
 }
 
-.etapesfonctionnement_div {
-  padding-bottom: 20PX;
-}
-
-.etapesfonctionnement__logotexte--modifier {
+.etapesfonctionnement__lien {
   display: flex;
-  background-color: #e9ddf8;
+  background-color: #f1eeee;
   border-radius: 20PX;
   height: 60PX;
   width: 90%;
   align-items: center;
   justify-content: flex-start;
   box-shadow: 1PX 1PX 10PX 1PX #c2c0c0;
+  color: black;
+  text-decoration: none;
+}
+
+.logo_fonctionnement--modifie {
+  display: none;
+}
+
+.etapesfonctionnement_div {
+  padding-bottom: 20PX;
 }
 
 .logo_fonctionnement {
@@ -228,6 +235,10 @@ h4 {
   width: 30%;
   position: relative;
   left: 40PX;
+}
+
+.etapesfonctionnement__lien:hover {
+  background-color: #e9ddf8;
 }
 
 .zone_restaurants {
