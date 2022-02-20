@@ -288,8 +288,9 @@ h4 {
   padding-bottom: 60PX;
 }
 
-.body .html {
-  height: 100%;
+.image-titre {
+  z-index: 0;
+  position: static;
 }
 
 .image-titre img {
@@ -298,14 +299,15 @@ h4 {
 }
 
 .menu {
-  position: absolute;
   background-color: #f1eeee;
   padding-top: 30PX;
   padding-left: 5%;
   border-top-left-radius: 35PX;
   border-top-right-radius: 35PX;
   width: 95%;
-  top: 250PX;
+  margin-top: -30PX;
+  z-index: 1;
+  position: relative;
 }
 
 .menu__titre {

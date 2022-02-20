@@ -1,5 +1,6 @@
-.body .html{
-    height: 100%;
+.image-titre{
+    z-index: 0;
+    position: static;
 }
 
 .image-titre img{
@@ -7,16 +8,16 @@
     width: 100%;
 }
 
-
 .menu{
-    position: absolute;
     background-color: #f1eeee;
     padding-top: 30PX;
     padding-left: 5%;
     border-top-left-radius: 35PX;
     border-top-right-radius: 35PX;
     width: 95%;
-    top: 250PX;
+    margin-top: -30PX;
+    z-index: 1;
+    position: relative;
     &__titre{
         margin:0;
     }
