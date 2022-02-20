@@ -1,0 +1,30 @@
+.section-menu{
+    width: 100%;
+}
+
+.image-titre img{
+    height: 250PX;
+    width: 100%;
+}
+
+
+.menu{
+    position:relative;
+    &__titre{
+    margin:0;
+    background-color: #f1eeee;
+    padding-top: 30PX;
+    padding-left:5%;
+    border-top-left-radius: 35PX;
+    border-top-right-radius: 35PX;
+    position:absolute;
+    top:-30PX;
+    width: 95%;
+    }
+}
+
+#coeur-menu{
+    position: absolute;
+    right: 30PX;
+    bottom: -10PX;
+}

@@ -112,6 +112,7 @@
 .etapesfonctionnement__lien:hover{
     background-color:#e9ddf8;
     color:$primary-color;
+    box-shadow: 3PX 3PX 10PX 10PX rgb(194, 192, 192);
 }
 .etapesfonctionnement__lien:hover .logo_fonctionnement::before{
     color:$primary-color

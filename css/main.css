@@ -229,6 +229,7 @@ h4 {
 .etapesfonctionnement__lien:hover {
   background-color: #e9ddf8;
   color: #9356DC;
+  box-shadow: 3PX 3PX 10PX 10PX #c2c0c0;
 }
 
 .etapesfonctionnement__lien:hover .logo_fonctionnement::before {
@@ -285,4 +286,35 @@ h4 {
 
 .carterestaumodif {
   padding-bottom: 60PX;
+}
+
+.section-menu {
+  width: 100%;
+}
+
+.image-titre img {
+  height: 250PX;
+  width: 100%;
+}
+
+.menu {
+  position: relative;
+}
+
+.menu__titre {
+  margin: 0;
+  background-color: #f1eeee;
+  padding-top: 30PX;
+  padding-left: 5%;
+  border-top-left-radius: 35PX;
+  border-top-right-radius: 35PX;
+  position: absolute;
+  top: -30PX;
+  width: 95%;
+}
+
+#coeur-menu {
+  position: absolute;
+  right: 30PX;
+  bottom: -10PX;
 }
