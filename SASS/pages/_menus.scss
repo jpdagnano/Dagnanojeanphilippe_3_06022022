@@ -79,14 +79,7 @@
     padding-right: 5%;
     padding-left: 5%;
 }
-.plats {
-    padding-right: 5%;
-    padding-left: 5%;
-}
-.desserts {
-    padding-right: 5%;
-    padding-left: 5%;
-}
+
 
 .menu__choix{
         display: flex;
@@ -96,6 +89,7 @@
         box-shadow: 1PX 1PX 10PX 1PX rgb(194, 192, 192);
         margin-bottom: 15PX;
         background-color: white;
+        justify-content: space-between;
 }
 
 .menu__texte{
