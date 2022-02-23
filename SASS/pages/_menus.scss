@@ -1,3 +1,51 @@
+.entrees{
+    opacity:0;
+    -moz-animation: anim 1s linear forwards 1s;
+    -webkit-animation: anim 1s linear forwards 1s;
+    -o-animation: anim 1s linear forwards 1s;
+    -ms-animation: anim 1s linear forwards 1s;
+    animation: anim 1s linear forwards 1s;
+}
+.plats{
+    opacity:0;
+    -moz-animation: anim 1s linear forwards 2s;
+    -webkit-animation: anim 1s linear forwards 2s;
+    -o-animation: anim 1s linear forwards 2s;
+    -ms-animation: anim 1s linear forwards 2s;
+    animation: anim 1s linear forwards 2s;
+}
+
+.desserts{
+    opacity:0;
+    -moz-animation: anim 1s linear forwards 3s;
+    -webkit-animation: anim 1s linear forwards 3s;
+    -o-animation: anim 1s linear forwards 3s;
+    -ms-animation: anim 1s linear forwards 3s;
+    animation: anim 1s linear forwards 3s;
+}
+@-moz-keyframes anim {
+    0%  {opacity:0;}
+    100% {opacity:1;}
+ }
+ @-webkit-keyframes anim {
+    0%  {opacity:0;}
+    100% {opacity:1;}
+ }
+ @-o-keyframes anim {
+    0%  {opacity:0;}
+    100% {opacity:1;}
+ }
+ @-ms-keyframes anim {
+    0%  {opacity:0;}
+    100% {opacity:1;}
+ }
+ @keyframes anim {
+    0%  {opacity:0;}
+    100% {opacity:1;}
+ }
+
+
+
 .image-titre{
     z-index: 0;
     position: static;
@@ -11,10 +59,9 @@
 .menu{
     background-color: #f1eeee;
     padding-top: 30PX;
-    padding-left: 5%;
     border-top-left-radius: 35PX;
     border-top-right-radius: 35PX;
-    width: 95%;
+    width: 100%;
     margin-top: -30PX;
     z-index: 1;
     position: relative;
@@ -28,34 +75,112 @@
     top:30PX;
 }
 
+.entrees {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.plats {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.desserts {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
 .menu__choix{
+        display: flex;
+        padding:10px;
         border-radius: 10PX;
-        height: 60PX;
-        width: 95%;
+        max-width: 100%;
         box-shadow: 1PX 1PX 10PX 1PX rgb(194, 192, 192);
         margin-bottom: 15PX;
         background-color: white;
 }
 
+.menu__texte{
+    white-space: nowrap;
+
+}
 .menu__phrase1{
-    padding-left:10PX;
-    padding-top: 10PX;
+    margin:0;
+    padding-top: 5PX;
+    padding-bottom:5PX;
 }
 
-.menu__phrase2prix{
+.menu__prix{
     display: flex;
-    justify-content: flex-start;
-    padding-top: 5PX;
-    padding-left: 10PX;
+    align-items: flex-end;
+    padding-left: 20px;
+
 }
 
 .menu__phrase2{
-    width: 85%;
     font-weight: lighter;
     font-size: 0.8em;
+    margin:0;
 }
 
 .menu__lien{
+    display: flex;
     text-decoration: none;
     color: black;
+    
+}
+
+.menu__titre{
+    padding-left: 5%;
+    font-family:Shrikhand;
+    padding-bottom: 20PX;
+    font-size: 1.8EM;
+}
+
+.menu__soustitre{
+    width: 30px;
+    padding-bottom: 4px;
+    font-weight:300;
+    border-bottom: 2px solid $tertiary-color;
+}
+
+.explorestau__bouton--menu{
+    display: flex;
+    justify-content: center;
+    padding-top: 40PX;
+    padding-bottom: 80PX;
+}
+
+.explorestau__bouton--menu a{
+    display: flex;
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    border-radius: 25PX;
+    height: 45PX;
+    width: 220PX;
+    background:linear-gradient($secondary-color, $primary-color);
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1PX 1PX 10PX 1PX rgb(194, 192, 192);
+}
+
+#animation-check {
+	background-color:$tertiary-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50PX;
+    margin-left:30PX;
+    
+}
+
+.fa-check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $tertiary-color;
+    background-color: white;
+    border-radius: 25PX;
+    width: 20PX;
+    height: 20PX;
+    
 }
