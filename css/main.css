@@ -19,7 +19,7 @@
   justify-content: center;
 }
 
-.fa-heart {
+.fa-heart--accueil {
   position: absolute;
   right: 30PX;
   bottom: 50PX;
@@ -335,11 +335,8 @@ h4 {
 
 .menu__titre {
   margin: 0;
-}
-
-#coeur-menu {
-  position: absolute;
-  top: 30PX;
+  display: flex;
+  justify-content: space-around;
 }
 
 .entrees {
@@ -398,10 +395,16 @@ h4 {
 }
 
 .menu__titre {
+  font-family: Shrikhand;
+  padding-bottom: 20PX;
+  font-size: 1.5EM;
+}
+
+.menu__titre--modifie {
   padding-left: 5%;
   font-family: Shrikhand;
   padding-bottom: 20PX;
-  font-size: 1.8EM;
+  font-size: 1.4EM;
 }
 
 .menu__soustitre {
@@ -448,14 +451,26 @@ h4 {
   color: #99E2D0;
   background-color: white;
   border-radius: 25PX;
-  width: 20PX;
-  height: 20PX;
-  transform: rotate(1turn);
-  transition: 1s;
+  width: 22PX;
+  height: 22PX;
+  transform: rotate(-360deg);
+  transition: 0.7s;
 }
 
 .menu__choix:hover #animation-check {
   display: flex;
   flex: 3;
   border-radius: 0px 10px 10px 0px;
+  transform: scaleX(1);
+}
+
+.menu__choix #animation-check {
+  transform-origin: 100% 0%;
+  transform: scaleX(0);
+  transition: transform 0.7s;
+}
+
+.menu__choix:hover #animation-check > .fa-check {
+  display: flex;
+  transform: rotate(0deg);
 }

@@ -12,7 +12,7 @@
     justify-content: center;
 }
 
-.fa-heart{
+.fa-heart--accueil{
     position:absolute;
     right:30PX;
     bottom:50PX;
@@ -27,5 +27,4 @@ background:linear-gradient($secondary-color, $primary-color);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 line-height: 1.33em;
-
 }

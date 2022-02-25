@@ -67,13 +67,11 @@
     position: relative;
     &__titre{
         margin:0;
+        display: flex;
+        justify-content: space-around;
     }
 }
 
-#coeur-menu{
-    position: absolute;
-    top:30PX;
-}
 
 .entrees {
     padding-right: 5%;
@@ -134,10 +132,15 @@
 }
 
 .menu__titre{
-    padding-left: 5%;
     font-family:Shrikhand;
     padding-bottom: 20PX;
-    font-size: 1.8EM;
+    font-size: 1.5EM;
+    &--modifie{
+        padding-left: 5%;
+        font-family:Shrikhand;
+        padding-bottom: 20PX;
+        font-size: 1.4EM;
+    }
 }
 
 .menu__soustitre{
@@ -184,10 +187,10 @@
     color: $tertiary-color;
     background-color: white;
     border-radius: 25PX;
-    width: 20PX;
-    height: 20PX;
-    transform: rotate(1turn);
-    transition: 1s;
+    width: 22PX;
+    height: 22PX;
+    transform: rotate(-360deg);
+    transition: 0.7s;
     
 }
 
@@ -195,6 +198,16 @@
     display: flex;
     flex:3;
     border-radius:0px 10px 10px 0px;
-    
-    
+    transform: scaleX(1);
+}
+
+.menu__choix #animation-check{
+    transform-origin: 100% 0%;
+    transform:scaleX(0);
+    transition:transform 0.7s;
+}
+
+.menu__choix:hover #animation-check > .fa-check {
+    display: flex;
+    transform: rotate(0deg);
 }
