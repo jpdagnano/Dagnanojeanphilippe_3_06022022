@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,18 +14,144 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-    
-    <title>Ohmyfood</title>
+
+    <title>La palette du gout - Ohmyfood</title>
 </head>
+
 <body>
+    <div class="general-container">
     <header class="header">
+        <a id="back-arrow" href="index.html"><i class="fas fa-arrow-left fa-lg"></i></a>
         <div class="header__image">
             <img src="./public/img/logo/ohmyfood.png" alt="logo ohmyfood" />
         </div>
     </header>
-    
 
-    
+    <div class="image-titre">
+        <img src="public/img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="image la palette du goût">
+    </div>
+    <section class="menu">
+    <h2 class="menu__titre">La palette du goût
+        <a><i class="far fa-heart" id="coeur-menu"></i></a>
+    </h2>
+
+        <div class="entrees">
+            <h5 class="menu__soustitre">ENTR&Eacute;ES</h5>
+            <div class="menu__choix">
+                <div class="menu__texte">
+                <p class="menu__phrase1">Fricassée d'escargot</p>
+                <p class="menu__phrase2">Au piment d'Espelette</p>
+                </div>
+                <div class="menu__prix">25€</div>
+                <div id="animation-check">
+                    <i class="fas fa-check"></i>
+                </div> 
+            </div>
+
+            
+            <div class="menu__choix">
+                <div class="menu__texte">
+                <p class="menu__phrase1">Foie gras de canard mi-cuit</p>
+                <p class="menu__phrase2">Et ses copeaux de truffe noire</p>
+                </div>
+                <div class="menu__prix">35€</div>
+                <div id="animation-check">
+                    <i class="fas fa-check"></i>
+                </div> 
+                </div>
+
+            <div class="menu__choix">
+                <div class="menu__texte">
+                <p class="menu__phrase1">Oeuf au plat</p>
+                <p class="menu__phrase2">Assaisonné à la truffe sur lit de caviar</p>
+                </div>
+                <div class="menu__prix">20€</div>
+                <div id="animation-check">
+                    <i class="fas fa-check"></i>
+                </div> 
+            </div>
+
+
+
+        <div class="plats">
+            <h5 class="menu__soustitre">PLATS</h5>
+            <div class="menu__choix">
+                <div class="menu__texte">
+                <p class="menu__phrase1">Filet de boeuf aux herbes</p>
+                <p class="menu__phrase2">Accompagné de sa ribambelle de légumes</p>
+                </div>
+                <div class="menu__prix">40€</div>
+                <div id="animation-check">
+                    <i class="fas fa-check"></i>
+                </div> 
+            </div>
+
+            <div class="menu__choix">
+                <div class="menu__texte">
+                <p class="menu__phrase1">Parmentier de queue de boeuf</p>
+                <p class="menu__phrase2">&Agrave; la truffe noire sur sa purée de panais</p>
+                </div>
+                <div class="menu__prix">35€</div>
+                <div id="animation-check">
+                    <i class="fas fa-check"></i>
+                </div> 
+            </div>
+
+            <div class="menu__choix">
+                <div class="menu__texte">
+                <p class="menu__phrase1">Filet de turbot</p>
+                <p class="menu__phrase2">Aux agrumes</p>
+                </div>
+                <div class="menu__prix">44€</div>
+                <div id="animation-check">
+                    <i class="fas fa-check"></i>
+                </div> 
+            </div>
+
+
+        <div class="desserts">
+            <h5 class="menu__soustitre">DESSERTS</h5>
+            <div class="menu__choix">
+                <div class="menu__texte">
+                <p class="menu__phrase1">Paris-Brest</p>
+                <p class="menu__phrase2">Revisité</p>
+                </div>
+                <div class="menu__prix">18€</div>
+                <div id="animation-check">
+                    <i class="fas fa-check"></i>
+                </div> 
+            </div>
+            <div class="menu__choix">
+                <div class="menu__texte">
+                <p class="menu__phrase1">Macaron au chocolat d'exception</p>
+                <p class="menu__phrase2">Et glace à la vanille de Madagascar</p>
+                </div>
+                <div class="menu__prix">22€</div>
+                <div id="animation-check">
+                    <i class="fas fa-check"></i>
+                </div> 
+            </div>
+
+            <div class="menu__choix">
+                <div class="menu__texte">
+                <p class="menu__phrase1">Mousse au chocolat</p>
+                <p class="menu__phrase2">Au piment d'Espelette et à la truffe noire</p>
+                </div>
+                <div class="menu__prix">23€</div>
+                <div id="animation-check">
+                    <i class="fas fa-check"></i>
+                </div> 
+            </div>
+    </section>
+
+    <div class="explorestau__bouton--menu">
+        <a href="#">Commander</a>
+    </div>
+
+
+
+
+
     <footer>
         <h4 class="footer_ohmyfood">Ohmyfood</h4>
         <div class="liensfooter">
@@ -44,5 +171,7 @@
             Contact
         </div>
     </footer>
+    </div>
 </body>
+
 </html>
