@@ -83,29 +83,38 @@
 
 .menu__choix{
         display: flex;
-        padding:10px;
         border-radius: 10PX;
         max-width: 100%;
         box-shadow: 1PX 1PX 10PX 1PX rgb(194, 192, 192);
         margin-bottom: 15PX;
         background-color: white;
         justify-content: space-between;
+        transition-property: transform, width, opacity;
 }
 
 .menu__texte{
-    white-space: nowrap;
+    padding:10px 0px 10px 10px;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    display: flex;
+    flex-direction: column;
+    flex: 8;
+    overflow: hidden;
 
 }
 .menu__phrase1{
     margin:0;
     padding-top: 5PX;
     padding-bottom:5PX;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .menu__prix{
+    padding-bottom:10px;
     display: flex;
     align-items: flex-end;
-    padding-left: 20px;
+    flex: 2;
 
 }
 
@@ -113,6 +122,8 @@
     font-weight: lighter;
     font-size: 0.8em;
     margin:0;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .menu__lien{
@@ -158,13 +169,12 @@
 }
 
 #animation-check {
-	background-color:$tertiary-color;
+    background-color: #99E2D0;
     display: flex;
+    flex: 0;
     align-items: center;
     justify-content: center;
-    width: 50PX;
-    margin-left:30PX;
-    
+    overflow: hidden;    
 }
 
 .fa-check{
@@ -176,5 +186,15 @@
     border-radius: 25PX;
     width: 20PX;
     height: 20PX;
+    transform: rotate(1turn);
+    transition: 1s;
+    
+}
+
+.menu__choix:hover #animation-check{
+    display: flex;
+    flex:3;
+    border-radius:0px 10px 10px 0px;
+    
     
 }
