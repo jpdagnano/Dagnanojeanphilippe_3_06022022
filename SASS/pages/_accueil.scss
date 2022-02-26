@@ -160,15 +160,15 @@
         &__coeur{
             display:flex;
             flex:2;
-            align-items: center;
-            justify-content: center;
         }
     }
-    
+
 .fa-heart--accueil{
         display: flex;
         flex: 2;
+        align-items: center;
         justify-content: end;
+        font-size:1.3333em;
     }
 .carterestaurant__texte-1{
 padding-bottom: 5px;

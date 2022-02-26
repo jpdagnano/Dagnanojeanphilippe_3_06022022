@@ -1,3 +1,7 @@
+.carterestaurant__coeur i {
+  display: flex;
+}
+
 @font-face {
   font-family: 'shrikhandregular';
   src: url("./shrikhand_font/shrikhand-regular-webfont.woff2"), url("./shrikhand_font/shrikhand-regular-webfont.woff");
@@ -20,9 +24,10 @@
 }
 
 .fa-heart:hover {
-  background: linear-gradient(#FF79DA, #9356DC);
+  background: linear-gradient(#9356DC, #FF79DA);
+  font-weight: 900;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  line-height: 1.33em;
 }
 
 body {
@@ -271,14 +276,14 @@ h4 {
 .carterestaurant__coeur {
   display: flex;
   flex: 2;
-  align-items: center;
-  justify-content: center;
 }
 
 .fa-heart--accueil {
   display: flex;
   flex: 2;
+  align-items: center;
   justify-content: end;
+  font-size: 1.3333em;
 }
 
 .carterestaurant__texte-1 {
@@ -360,6 +365,16 @@ h4 {
   transition-property: transform, width, opacity;
 }
 
+.menu__choix--modifie {
+  display: flex;
+  border-radius: 10PX;
+  max-width: 100%;
+  box-shadow: 1PX 1PX 10PX 1PX #c2c0c0;
+  background-color: white;
+  justify-content: space-between;
+  transition-property: transform, width, opacity;
+}
+
 .menu__texte {
   padding: 10px 0px 10px 10px;
   white-space: nowrap;
@@ -422,8 +437,9 @@ h4 {
 .explorestau__bouton--menu {
   display: flex;
   justify-content: center;
-  padding-top: 40PX;
+  padding-top: 60PX;
   padding-bottom: 80PX;
+  background-color: #f1eeee;
 }
 
 .explorestau__bouton--menu a {
@@ -476,6 +492,24 @@ h4 {
 }
 
 .menu__choix:hover #animation-check > .fa-check {
+  display: flex;
+  transform: rotate(0deg);
+}
+
+.menu__choix--modifie:hover #animation-check {
+  display: flex;
+  flex: 3;
+  border-radius: 0px 10px 10px 0px;
+  transform: scaleX(1);
+}
+
+.menu__choix--modifie #animation-check {
+  transform-origin: 100% 0%;
+  transform: scaleX(0);
+  transition: transform 0.7s;
+}
+
+.menu__choix--modifie:hover #animation-check > .fa-check {
   display: flex;
   transform: rotate(0deg);
 }

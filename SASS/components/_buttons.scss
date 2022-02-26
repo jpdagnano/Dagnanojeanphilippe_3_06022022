@@ -13,9 +13,10 @@
 }
 
 
-
 .fa-heart:hover{
-background:linear-gradient($secondary-color, $primary-color);
--webkit-text-fill-color: transparent;
-line-height: 1.33em;
+    background: linear-gradient($primary-color, $secondary-color);
+    font-weight: 900;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
