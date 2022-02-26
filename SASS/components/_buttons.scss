@@ -12,19 +12,10 @@
     justify-content: center;
 }
 
-.fa-heart--accueil{
-    position:absolute;
-    right:30PX;
-    bottom:50PX;
-}
-.heart-modif{
-    position:absolute;
-    right:30PX;
-    bottom:85PX;
-}
+
+
 .fa-heart:hover{
 background:linear-gradient($secondary-color, $primary-color);
--webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 line-height: 1.33em;
 }

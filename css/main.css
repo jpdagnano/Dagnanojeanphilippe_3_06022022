@@ -19,21 +19,8 @@
   justify-content: center;
 }
 
-.fa-heart--accueil {
-  position: absolute;
-  right: 30PX;
-  bottom: 50PX;
-}
-
-.heart-modif {
-  position: absolute;
-  right: 30PX;
-  bottom: 85PX;
-}
-
 .fa-heart:hover {
   background: linear-gradient(#FF79DA, #9356DC);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 1.33em;
 }
@@ -263,24 +250,42 @@ h4 {
   border-top-right-radius: 20PX;
 }
 
-.carterestaurant__texte {
+.carterestaurant__submenu {
+  display: flex;
+  justify-content: space-between;
   margin: 0;
   background-color: white;
-  height: 70PX;
+  padding: 20px;
   border-bottom-left-radius: 20PX;
   border-bottom-right-radius: 20PX;
   position: relative;
   color: black;
 }
 
+.carterestaurant__texte {
+  display: flex;
+  flex-direction: column;
+  flex: 8;
+}
+
+.carterestaurant__coeur {
+  display: flex;
+  flex: 2;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-heart--accueil {
+  display: flex;
+  flex: 2;
+  justify-content: end;
+}
+
 .carterestaurant__texte-1 {
-  padding-top: 15PX;
-  padding-left: 20PX;
+  padding-bottom: 5px;
 }
 
 .carterestaurant__texte-2 {
-  padding-top: 5PX;
-  padding-left: 20PX;
   font-weight: lighter;
 }
 
