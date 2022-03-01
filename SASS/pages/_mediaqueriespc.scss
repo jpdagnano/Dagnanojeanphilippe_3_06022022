@@ -21,4 +21,24 @@
     margin:0;
     padding:1%;
 }
+
+.menucomplet{
+    display: flex;
+    justify-content: space-around;
+}
+.entrees, .plats, .desserts{
+    padding:0;
+    width: 32%;
+    padding: 1%;
+}
+
+.menu__titre {
+    justify-content: center;
+}
+.fa-heart{
+    padding-left:50PX;
+}
+.image-titre img{
+    object-fit: cover;
+}
 }
