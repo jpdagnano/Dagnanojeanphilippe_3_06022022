@@ -1,3 +1,4 @@
+
 .entrees{
     opacity:0;
     -moz-animation: anim 1s linear forwards 1s;
@@ -67,8 +68,7 @@
     position: relative;
     &__titre{
         margin:0;
-        display: flex;
-        justify-content: space-around;
+        padding-left: 5%;
     }
 }
 

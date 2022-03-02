@@ -2,6 +2,37 @@
   display: flex;
 }
 
+.loader {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loaderrond {
+  border: 16px solid #99E2D0;
+  border-top: 16px solid #9356DC;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  animation: spin 3s;
+  animation-fill-mode: forwards;
+  z-index: 9999;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(720deg);
+    opacity: 0;
+  }
+}
+
 @font-face {
   font-family: 'shrikhandregular';
   src: url("./shrikhand_font/shrikhand-regular-webfont.woff2"), url("./shrikhand_font/shrikhand-regular-webfont.woff");
@@ -18,16 +49,29 @@
   border-radius: 2PX;
   background-color: #99E2D0;
   color: #578176;
+  position: absolute;
+  right: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.fa-heart:hover {
+.fa-heart-couleur {
+  opacity: 0;
+}
+
+.fa-heart-couleur:hover {
+  opacity: 1;
   background: linear-gradient(#9356DC, #FF79DA);
   font-weight: 900;
+  transition: 2s;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.fa-heart-menu {
+  position: absolute;
+  right: 30px;
 }
 
 body {
@@ -279,11 +323,10 @@ h4 {
 }
 
 .fa-heart--accueil {
-  display: flex;
-  flex: 2;
-  align-items: center;
-  justify-content: end;
-  font-size: 1.3333em;
+  position: absolute;
+  right: 30PX;
+  top: 35PX;
+  font-size: 1.33333em;
 }
 
 .carterestaurant__texte-1 {
@@ -345,8 +388,7 @@ h4 {
 
 .menu__titre {
   margin: 0;
-  display: flex;
-  justify-content: space-around;
+  padding-left: 5%;
 }
 
 .entrees {

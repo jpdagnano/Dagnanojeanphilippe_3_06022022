@@ -7,16 +7,28 @@
     border-radius: 2PX;
     background-color: $tertiary-color;
     color: #578176;
-    display: flex;
+   
+   position: absolute;
+   right: 30px; display: flex;
     align-items: center;
     justify-content: center;
 }
 
 
-.fa-heart:hover{
+
+.fa-heart-couleur{
+    opacity: 0;
+}
+.fa-heart-couleur:hover{
+    opacity: 1;
     background: linear-gradient($primary-color, $secondary-color);
     font-weight: 900;
-    -webkit-background-clip: text;
+    transition:2s;
+    -webkit-background-clip:text;
     -webkit-text-fill-color: transparent;
+}
 
+.fa-heart-menu{
+    position: absolute;
+    right: 30px;
 }
