@@ -568,7 +568,7 @@ h4 {
   transform: rotate(0deg);
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .etapesfonctionnement {
     justify-content: center;
   }
@@ -582,7 +582,7 @@ h4 {
   }
 }
 
-@media only screen and (min-device-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   .header__image {
     width: auto;
   }
