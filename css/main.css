@@ -131,6 +131,8 @@ footer {
 
 .lienfooter__modif {
   padding-bottom: 30PX;
+  text-decoration: none;
+  color: white;
 }
 
 h2 {
